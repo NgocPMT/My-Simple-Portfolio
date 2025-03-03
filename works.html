@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/neutral.css" />
+    <link rel="stylesheet" href="css/works.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a class="active" href="">My Works</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h1>My Works</h1>
+        <p>This is what I have been working on so far this course.</p>
+        <div class="work-container">
+          <div class="work">
+            <a href="https://ngocpmt.github.io/Play-With-CSS/"
+              ><img
+                src="img/play-with-css.png"
+                alt="A slight illustrate of my first work - Play With CSS"
+                onmouseover="changeDescription(this.alt)"
+                onmouseleave="resetDescription()"
+                onfocus="changeDescription(this.alt)"
+                onblur="resetDescription()"
+                tabindex="0"
+            /></a>
+          </div>
+          <div class="work">
+            <a href="https://ngocpmt.github.io/Cat-Gallery/"
+              ><img
+                src="img/cat-gallery.png"
+                alt="A slight illustrate of my second work - Cat Gallery"
+                onmouseover="changeDescription(this.alt)"
+                onmouseleave="resetDescription()"
+                onfocus="changeDescription(this.alt)"
+                onblur="resetDescription()"
+                tabindex="0"
+            /></a>
+          </div>
+          <div class="work">
+            <a href="https://ngocpmt.github.io/resposive-repo/"
+              ><img
+                src="img/resposive-repo.png"
+                alt="A slight illustrate of my third work - Resposive Repo"
+                onmouseover="changeDescription(this.alt)"
+                onmouseleave="resetDescription()"
+                onfocus="changeDescription(this.alt)"
+                onblur="resetDescription()"
+                tabindex="0"
+            /></a>
+          </div>
+        </div>
+        <p class="description">Hover over these image!</p>
+      </section>
+    </main>
+    <footer>&#169; 2025 Nathan Pham. All rights reversed</footer>
+  </body>
+  <script src="script/works.js"></script>
+</html>
