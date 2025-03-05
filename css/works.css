@@ -15,6 +15,7 @@ p {
 .work-container {
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .work{
@@ -39,4 +40,11 @@ p {
 .work img:focus {
   opacity: 1;
   border-radius: 0.8em;
+}
+
+@media screen and (max-width: 800px) {
+  .work {
+    width: 70%;
+    margin: 2em;
+  }
 }
